@@ -33,7 +33,7 @@ const getUserWithEmail = function(email) {
     .then((result) => {
       return result.rows[0];
     })
-    .catch((err) => {
+    .catch(() => {
       return null;
     });
 
@@ -59,7 +59,7 @@ const getUserWithId = function(id) {
     .then((result) => {
       return result.rows[0];
     })
-    .catch((err) => {
+    .catch(() => {
       return null;
     });
 
