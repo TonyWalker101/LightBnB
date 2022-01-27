@@ -1,5 +1,11 @@
 # LightBnB
 
+A single-page web app created for educational purposes with the intention of having users sign-in, log-in, create property listings, and make reservations on properties.
+
+## Screenshot
+
+!["lightbnb-desktop-version"](https://raw.githubusercontent.com/TonyWalker101/LightBnB/c6b1857700fbc49b8f23fde5499d20108111cb41/LightBnB_WebApp-master/images/lightbnb_desktop.png)
+
 ## Project Structure
 
 ```
@@ -40,4 +46,14 @@
   * `server.js` is the entry point to the application. This connects the routes to the database.
   * `apiRoutes.js` and `userRoutes.js` are responsible for any HTTP requests to `/users/something` or `/api/something`. 
   * `json` is a directory that contains a bunch of dummy data in `.json` files.
-  * `database.js` is responsible for all queries to the database. It doesn't currently connect to any database, all it does is return data from `.json` files.
+  * `database.js` is responsible for all queries to the database.
+  * `images` contains photos for README file.
+
+## Dependencies
+
+  * bcrypt: ^3.0.6
+  * body-parser: ^1.19.0
+  * cookie-session: ^1.3.3
+  * express: ^4.17.1
+  * nodemon: ^1.19.1
+  * pg: ^8.7.1
