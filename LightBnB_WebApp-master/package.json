@@ -9,7 +9,7 @@
     "start": "node server/server"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tony Walker",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^3.0.6",
