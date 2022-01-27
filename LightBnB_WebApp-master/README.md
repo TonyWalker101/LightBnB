@@ -34,6 +34,7 @@ A single-page web app created for educational purposes with the intention of hav
   └── userRoutes.js
 ```
 
+* `images` contains photos for README file.
 * `public` contains all of the HTML, CSS, and client side JavaScript. 
   * `index.html` is the entry point to the application. It's the only html page because this is a single page application.
   * `javascript` contains all of the client side javascript files.
@@ -47,7 +48,6 @@ A single-page web app created for educational purposes with the intention of hav
   * `apiRoutes.js` and `userRoutes.js` are responsible for any HTTP requests to `/users/something` or `/api/something`. 
   * `json` is a directory that contains a bunch of dummy data in `.json` files.
   * `database.js` is responsible for all queries to the database.
-  * `images` contains photos for README file.
 
 ## Dependencies
 
